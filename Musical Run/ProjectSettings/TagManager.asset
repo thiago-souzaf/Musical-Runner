@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Note
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -12,9 +14,9 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
-  - 
+  - Player
+  - Top Platform
+  - Middle Platform
   - 
   - 
   - 
@@ -40,4 +42,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1630775221
+    locked: 0
+  - name: Platforms
+    uniqueID: 346183925
+    locked: 0
+  - name: Notes
+    uniqueID: 3512700483
+    locked: 0
+  - name: Player
+    uniqueID: 2782264031
     locked: 0
