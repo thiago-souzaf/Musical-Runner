@@ -18,10 +18,11 @@ public class GameManager : MonoBehaviour
     }
     #endregion
 
-    
 
+    public int minNoteLength;
     public int musicBPM;
     public int notesPerBeat;
+    public int noteTimeInterval;
     
     public float notesDistance;
 

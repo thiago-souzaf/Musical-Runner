@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
 
     public void GetDown()
     {
-        if(currentPlatformIndex >= 0)
+        if(currentPlatformIndex > 0)
             StartCoroutine(DisableCollision(currentPlatformIndex));
     }
 
