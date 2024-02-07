@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Note
   - Platform
+  - OuterBounds
   layers:
   - Default
   - TransparentFX

@@ -1,7 +1,7 @@
 using Melanchall.DryWetMidi.Interaction;
 using UnityEngine;
 
-public class NoteInfo : MonoBehaviour
+public class NoteHandle : MonoBehaviour
 {
     public Note note;
 
@@ -28,14 +28,24 @@ public class NoteInfo : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("EndTIme: " + note.EndTime + " Note Time: "+ note.Time + " Note lenght: "+note.Length);
-            PlayNote();
+            CollectNote();
+        }
+        else if (other.CompareTag("OuterBounds"))
+        {
+            DestroyNote();
         }
     }
 
     void PlayNote()
     {
         audioSource.Play();
+    }
+
+    void CollectNote()
+    {
+        PlayNote();
+        DestroyNote();
+
         float noteDuration = 60f * note.Length / (gameManager.musicBPM * gameManager.notesPerBeat * gameManager.minNoteLength);
         Invoke(nameof(StopPlay), noteDuration);
     }
@@ -43,5 +53,14 @@ public class NoteInfo : MonoBehaviour
     void StopPlay()
     {
         audioSource.Stop();
+    }
+
+    void DestroyNote()
+    {
+        if(TryGetComponent(out SpriteRenderer sr)){
+            sr.enabled = false;
+        }
+        GetComponent<BoxCollider2D>().enabled = false;
+        Destroy(gameObject, 2f);
     }
 }

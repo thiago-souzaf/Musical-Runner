@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -7829336472807392917}
   - component: {fileID: -4164759692033134185}
   m_Layer: 0
-  m_Name: Note
+  m_Name: MelodyNote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -169,7 +169,7 @@ AudioSource:
   m_GameObject: {fileID: 7631666963706087267}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2877760182334244913, guid: 4205fdf7d5c7e764d879dff0440e436d, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0

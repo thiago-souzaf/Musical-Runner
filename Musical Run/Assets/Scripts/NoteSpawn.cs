@@ -1,47 +1,87 @@
 using UnityEngine;
-using System.Collections.Generic;
 using Melanchall.DryWetMidi.Core;
 using Melanchall.DryWetMidi.Interaction;
+using System.Collections;
+using System.Collections.Generic;
 
 public class NoteSpawn : MonoBehaviour
 {
-    [SerializeField] private GameObject notePrefab;
-    public Vector2 startSpawnPosition;
+    [SerializeField] private GameObject melodyNotePrefab;
+    [SerializeField] private GameObject accompanimentNotePrefab;
+    [SerializeField] private string pathToMelodyMIDI;
+    [SerializeField] private string pathToAccompanimentMIDI;
 
-    public float[] platformsYPosition = new float[] { -3, 0, 3};
+    [SerializeField] private float[] platformsYPosition;
+    [SerializeField] private float accompanimentYPosition;
 
-    private Vector2 currentSpawnPosition;
+    private float notesPerMinute;
+
+    private Vector2 melodySpawnPosition;
+    private Vector2 accompanimentSpawnPosition;
 
     private IEnumerable<Note> notes;
+    private IEnumerable<Note> accNotes;
+
+    private GameManager gameManager;
 
     private void Start()
     {
-        MidiFile file = MidiFile.Read("Assets/MIDI Files/Fur_elise_melody.mid");
-        
+        MidiFile file = MidiFile.Read(pathToMelodyMIDI);
         notes = file.GetNotes();
 
-        currentSpawnPosition = startSpawnPosition;
+        MidiFile accompaniment = MidiFile.Read(pathToAccompanimentMIDI);
+        accNotes = accompaniment.GetNotes();
 
-        SpawnNotes();
+        gameManager = GameManager.Instance;
+        notesPerMinute = gameManager.notesPerBeat * gameManager.musicBPM;
+
+        accompanimentSpawnPosition = new Vector2(transform.position.x, accompanimentYPosition);
+
+        StartCoroutine(SpawnMelodyNotes());
+        StartCoroutine(SpawnAccompaniment());
     }
 
-    void SpawnNotes()
+    IEnumerator SpawnMelodyNotes()
     {
         int index = 0;
         int previousNoteHeight = 0;
 
+        melodySpawnPosition.x = transform.position.x;
         foreach (Note note in notes)
         {
+            // Sets the y position based on previous note height
             index = note.NoteNumber > previousNoteHeight ? index+1 : note.NoteNumber < previousNoteHeight ? index-1 : index;
-            index = Mathf.Clamp(index, 0, platformsYPosition.Length-1);
-
-            currentSpawnPosition.y = platformsYPosition[index];
-            currentSpawnPosition.x = (GameManager.Instance.notesDistance * note.Time) / GameManager.Instance.noteTimeInterval;
-
-            NoteInfo ni_note = Instantiate(notePrefab, currentSpawnPosition, Quaternion.identity, transform).GetComponent<NoteInfo>();
-            ni_note.note = note;
-
+            if (index == platformsYPosition.Length)
+                index -= 2;
+            else if (index == -1)
+                index += 2;
+            melodySpawnPosition.y = platformsYPosition[index];
             previousNoteHeight = note.NoteNumber;
+
+            // Wait for spawn
+            float timeToPlay = note.Time * 60 / (gameManager.noteTimeInterval * notesPerMinute);
+            float waitTime = timeToPlay - Time.time;
+            yield return new WaitForSeconds(waitTime);
+
+            // Instantiate after waiting
+            NoteHandle ni_note = Instantiate(melodyNotePrefab, melodySpawnPosition, Quaternion.identity, transform).GetComponent<NoteHandle>();
+            ni_note.note = note;
+        }
+        
+    }
+
+    IEnumerator SpawnAccompaniment()
+    {
+        foreach (Note note in accNotes)
+        {
+            // Wait for spawn
+            float timeToPlay = note.Time * 60 / (gameManager.noteTimeInterval * notesPerMinute);
+            float waitTime = timeToPlay - Time.time;
+            yield return new WaitForSeconds(waitTime);
+
+            // Instantiate after waiting
+            NoteHandle nh_note = Instantiate(accompanimentNotePrefab, accompanimentSpawnPosition, Quaternion.identity, transform).GetComponent<NoteHandle>();
+            nh_note.note = note;
         }
     }
 }
