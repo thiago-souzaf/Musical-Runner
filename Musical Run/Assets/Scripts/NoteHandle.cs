@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class NoteHandle : MonoBehaviour
 {
-    public NoteInfo note;
+    public int scoreValue;
 
+    [SerializeField] private bool isAccompaniment;
+
+    [HideInInspector] public NoteInfo note;
     private AudioSource audioSource;
     private int noteInterval;
 
@@ -15,12 +18,12 @@ public class NoteHandle : MonoBehaviour
         noteInterval = note.NoteNumber - ((octave + 1) * 12);
 
         audioSource = GetComponent<AudioSource>();
-        audioSource.clip = NoteManager.instance.CNoteClips[octave - 1];
+        gameManager = GameManager.Instance;
+        audioSource.clip = gameManager.CNoteClips[octave - 1];
 
         float newPitch = Mathf.Pow(2, noteInterval / 12.0f);
         audioSource.pitch = newPitch;
 
-        gameManager = GameManager.Instance;
 
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -32,6 +35,7 @@ public class NoteHandle : MonoBehaviour
         else if (other.CompareTag("OuterBounds"))
         {
             DestroyNote();
+            gameManager.ResetStreak();
         }
     }
 
@@ -44,9 +48,11 @@ public class NoteHandle : MonoBehaviour
     {
         PlayNote();
         DestroyNote();
-
         float noteDuration = 60f * note.Length / (gameManager.musicBPM * gameManager.notesPerBeat * gameManager.minNoteLength);
         Invoke(nameof(StopPlay), noteDuration);
+
+        if(!isAccompaniment)
+            gameManager.IncrementScore(scoreValue);
     }
 
     void StopPlay()

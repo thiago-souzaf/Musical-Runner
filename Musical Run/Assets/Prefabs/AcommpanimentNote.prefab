@@ -93,6 +93,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7c2c173a9aa0f41a9c6b9a4160cd11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreValue: 0
+  isAccompaniment: 1
+  note:
+    Octave: 0
+    NoteNumber: 0
+    Length: 0
+    Time: 0
 --- !u!114 &-7829336472807392917
 MonoBehaviour:
   m_ObjectHideFlags: 0
