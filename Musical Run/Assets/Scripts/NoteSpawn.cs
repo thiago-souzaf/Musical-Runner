@@ -1,16 +1,21 @@
 using UnityEngine;
-using Melanchall.DryWetMidi.Core;
-using Melanchall.DryWetMidi.Interaction;
 using System.Collections;
-using System.Collections.Generic;
+using System.IO;
 
 public class NoteSpawn : MonoBehaviour
 {
+    [Header("Prefabs")]
     [SerializeField] private GameObject melodyNotePrefab;
     [SerializeField] private GameObject accompanimentNotePrefab;
-    [SerializeField] private string pathToMelodyMIDI;
-    [SerializeField] private string pathToAccompanimentMIDI;
 
+    [Header("Json Files")]
+    [SerializeField] private string pathToMelodyJson;
+    [SerializeField] private string melodyJson;
+
+    [SerializeField] private string pathToAccompanimentJson;
+    [SerializeField] private string accompanimentJson;
+
+    [Header("Y Axis spawn position")]
     [SerializeField] private float[] platformsYPosition;
     [SerializeField] private float accompanimentYPosition;
 
@@ -19,18 +24,15 @@ public class NoteSpawn : MonoBehaviour
     private Vector2 melodySpawnPosition;
     private Vector2 accompanimentSpawnPosition;
 
-    private IEnumerable<Note> notes;
-    private IEnumerable<Note> accNotes;
+    private NoteInfo[] notes;
+    private NoteInfo[] accNotes;
 
     private GameManager gameManager;
 
     private void Start()
     {
-        MidiFile file = MidiFile.Read(pathToMelodyMIDI);
-        notes = file.GetNotes();
-
-        MidiFile accompaniment = MidiFile.Read(pathToAccompanimentMIDI);
-        accNotes = accompaniment.GetNotes();
+        notes = JsonHelper.FromJson<NoteInfo>(melodyJson);
+        accNotes = JsonHelper.FromJson<NoteInfo>(accompanimentJson);
 
         gameManager = GameManager.Instance;
         notesPerMinute = gameManager.notesPerBeat * gameManager.musicBPM;
@@ -47,7 +49,7 @@ public class NoteSpawn : MonoBehaviour
         int previousNoteHeight = 0;
 
         melodySpawnPosition.x = transform.position.x;
-        foreach (Note note in notes)
+        foreach (NoteInfo note in notes)
         {
             // Sets the y position based on previous note height
             index = note.NoteNumber > previousNoteHeight ? index+1 : note.NoteNumber < previousNoteHeight ? index-1 : index;
@@ -67,12 +69,11 @@ public class NoteSpawn : MonoBehaviour
             NoteHandle ni_note = Instantiate(melodyNotePrefab, melodySpawnPosition, Quaternion.identity, transform).GetComponent<NoteHandle>();
             ni_note.note = note;
         }
-        
     }
 
     IEnumerator SpawnAccompaniment()
     {
-        foreach (Note note in accNotes)
+        foreach (NoteInfo note in accNotes)
         {
             // Wait for spawn
             float timeToPlay = note.Time * 60 / (gameManager.noteTimeInterval * notesPerMinute);

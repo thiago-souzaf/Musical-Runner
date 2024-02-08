@@ -1,9 +1,8 @@
-using Melanchall.DryWetMidi.Interaction;
 using UnityEngine;
 
 public class NoteHandle : MonoBehaviour
 {
-    public Note note;
+    public NoteInfo note;
 
     private AudioSource audioSource;
     private int noteInterval;
