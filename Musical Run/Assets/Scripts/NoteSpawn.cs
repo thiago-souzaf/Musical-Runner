@@ -20,9 +20,7 @@ public class NoteSpawn : MonoBehaviour
     [SerializeField] private float accompanimentYPosition;
 
     private float notesPerMinute;
-
-    private Vector2 melodySpawnPosition;
-    private Vector2 accompanimentSpawnPosition;
+    private float musicStartTime;
 
     private NoteInfo[] notes;
     private NoteInfo[] accNotes;
@@ -34,10 +32,10 @@ public class NoteSpawn : MonoBehaviour
         notes = JsonHelper.FromJson<NoteInfo>(melodyJson);
         accNotes = JsonHelper.FromJson<NoteInfo>(accompanimentJson);
 
+        musicStartTime = Time.time;
+
         gameManager = GameManager.Instance;
         notesPerMinute = gameManager.notesPerBeat * gameManager.musicBPM;
-
-        accompanimentSpawnPosition = new Vector2(transform.position.x, accompanimentYPosition);
 
         StartCoroutine(SpawnMelodyNotes());
         StartCoroutine(SpawnAccompaniment());
@@ -48,7 +46,9 @@ public class NoteSpawn : MonoBehaviour
         int index = 0;
         int previousNoteHeight = 0;
 
-        melodySpawnPosition.x = transform.position.x;
+        Vector2 melodySpawnPos;
+        melodySpawnPos.x = transform.position.x;
+
         foreach (NoteInfo note in notes)
         {
             // Sets the y position based on previous note height
@@ -57,32 +57,42 @@ public class NoteSpawn : MonoBehaviour
                 index -= 2;
             else if (index == -1)
                 index += 2;
-            melodySpawnPosition.y = platformsYPosition[index];
+            melodySpawnPos.y = platformsYPosition[index];
             previousNoteHeight = note.NoteNumber;
 
             // Wait for spawn
-            float timeToPlay = note.Time * 60 / (gameManager.noteTimeInterval * notesPerMinute);
-            float waitTime = timeToPlay - Time.time;
-            yield return new WaitForSeconds(waitTime);
+            yield return new WaitForSeconds(GetWaitTime(note.Time));
 
             // Instantiate after waiting
-            NoteHandle ni_note = Instantiate(melodyNotePrefab, melodySpawnPosition, Quaternion.identity, transform).GetComponent<NoteHandle>();
-            ni_note.note = note;
+            SpawnNote(note, melodyNotePrefab, melodySpawnPos);
         }
     }
 
     IEnumerator SpawnAccompaniment()
     {
+
+        Vector2 accompanimentSpawnPosition = new(transform.position.x, accompanimentYPosition);
+
         foreach (NoteInfo note in accNotes)
         {
             // Wait for spawn
-            float timeToPlay = note.Time * 60 / (gameManager.noteTimeInterval * notesPerMinute);
-            float waitTime = timeToPlay - Time.time;
-            yield return new WaitForSeconds(waitTime);
+            yield return new WaitForSeconds(GetWaitTime(note.Time));
 
             // Instantiate after waiting
-            NoteHandle nh_note = Instantiate(accompanimentNotePrefab, accompanimentSpawnPosition, Quaternion.identity, transform).GetComponent<NoteHandle>();
-            nh_note.note = note;
+            SpawnNote(note, accompanimentNotePrefab, accompanimentSpawnPosition);
         }
+    }
+
+    private void SpawnNote(NoteInfo note, GameObject notePrefab, Vector2 spawnPosition)
+    {
+        NoteHandle nh_note = Instantiate(notePrefab, spawnPosition, Quaternion.identity, transform).GetComponent<NoteHandle>();
+        nh_note.note = note;
+    }
+
+    private float GetWaitTime(float startTime)
+    {
+        float timeToPlay = startTime * 60 / (gameManager.noteTimeInterval * notesPerMinute) + musicStartTime;
+        float waitTime = timeToPlay - Time.time;
+        return waitTime;
     }
 }
