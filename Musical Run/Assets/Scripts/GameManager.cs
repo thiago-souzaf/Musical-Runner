@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -12,7 +13,6 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
             return;
         }
 
@@ -20,32 +20,34 @@ public class GameManager : MonoBehaviour
     }
     #endregion
 
-    public int minNoteLength;
-    public int noteTimeInterval;
+    [Header("Music information")]
+    public int beatInterval;
     public int musicBPM;
-    public int notesPerBeat;
 
-    [Tooltip("Distance in units between 2 sequencial notes")]
-    public float notesDistance;
+    [Space]
+    [Tooltip("Distance in units between 2 beats")]
+    public float beatsDistance;
 
+    [Header("Audio clips for piano sounds (only C notes of each octave)")]
     public AudioClip[] CNoteClips;
 
-
-    // Score Manager
-
+    [Space(50f)]
+    #region Score Management
+    [Header("Score management")]
+    [Tooltip("Number of notes needed to increase multiply value")]
+    [SerializeField] private int streakSequence = 7;
+    [Tooltip("Max multiply value")]
+    [SerializeField] private int maxMultiply = 4;
+    [Space]
+    public UnityEvent<int> onLevelFinish;
+    [Space]
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI multiplierText;
     [SerializeField] private Slider noteStreakSlider;
-    [SerializeField] private int streakSequence = 7;
 
     private int m_Score;
     private int noteStreak;
     private int multiplyValue;
-
-    private void Start()
-    {
-        ResetStreak();
-    }
 
     public void IncrementScore(int score)
     {
@@ -53,7 +55,7 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Score: " + m_Score;
         noteStreak++;
 
-        if (noteStreak >= streakSequence && multiplyValue < 4)
+        if (noteStreak >= streakSequence && multiplyValue < maxMultiply)
         {
             IncrementMultiplier();
             noteStreak = 0;
@@ -74,5 +76,24 @@ public class GameManager : MonoBehaviour
     {
         multiplyValue++;
         multiplierText.text = "x" + multiplyValue;
+    }
+
+    #endregion
+
+
+    public void FinishLevel()
+    {
+        onLevelFinish.Invoke(m_Score);
+    }
+
+    private void ResetScore()
+    {
+        m_Score = 0;
+        ResetStreak();
+    }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        ResetScore();
     }
 }

@@ -1,0 +1,3172 @@
+{
+    "Items": [
+        {
+            "Octave": 1,
+            "NoteNumber": 33,
+            "Length": 479.0,
+            "Time": 480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 960.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 960.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 960.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 1440.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 1440.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 1440.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 38,
+            "Length": 479.0,
+            "Time": 1920.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 2400.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 2400.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 2400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 2880.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 2880.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 2880.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 43,
+            "Length": 479.0,
+            "Time": 3360.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 3840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 3840.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 3840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 4320.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 4320.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 4320.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 48,
+            "Length": 479.0,
+            "Time": 4800.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 5280.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 5280.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 5280.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 5760.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 5760.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 5760.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 6240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 6720.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 6720.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 6720.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 7200.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 7200.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 7200.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 38,
+            "Length": 479.0,
+            "Time": 7680.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 8160.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 8160.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 8160.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 8640.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 8640.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 8640.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 43,
+            "Length": 479.0,
+            "Time": 9120.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 9600.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 9600.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 9600.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 10080.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 10080.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 10080.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 48,
+            "Length": 479.0,
+            "Time": 10560.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 11040.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 11040.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 11040.0
+        },
+        {
+            "Octave": 1,
+            "NoteNumber": 33,
+            "Length": 479.0,
+            "Time": 12000.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 12480.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 12480.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 12480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 12960.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 12960.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 12960.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 38,
+            "Length": 479.0,
+            "Time": 13440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 13920.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 13920.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 13920.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 14400.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 14400.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 14400.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 43,
+            "Length": 479.0,
+            "Time": 14880.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 15360.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 15360.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 15360.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 15840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 15840.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 15840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 48,
+            "Length": 479.0,
+            "Time": 16320.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 16800.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 16800.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 16800.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 17280.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 17280.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 17280.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 17760.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 18240.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 18240.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 18240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 18720.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 18720.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 18720.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 38,
+            "Length": 479.0,
+            "Time": 19200.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 19680.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 19680.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 19680.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 20160.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 20160.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 20160.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 43,
+            "Length": 479.0,
+            "Time": 20640.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 21120.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 21120.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 21120.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 21600.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 21600.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 21600.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 48,
+            "Length": 479.0,
+            "Time": 22080.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 22560.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 22560.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 22560.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 23040.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 23040.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 23040.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 23520.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 24000.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 24000.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 24000.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 24480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 24480.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 24480.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 24960.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 25440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 25440.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 25440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 25920.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 25920.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 25920.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 26400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 26880.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 26880.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 26880.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 27360.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 27360.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 27360.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 27840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 28320.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 28320.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 28320.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 28800.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 28800.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 28800.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 29280.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 29760.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 29760.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 29760.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 30240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 30240.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 30240.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 30720.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 31200.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 31200.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 31200.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 31680.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 31680.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 31680.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 32160.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 32640.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 32640.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 32640.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 33120.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 33120.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 33120.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 33600.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 34080.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 34080.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 34080.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 34560.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 34560.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 34560.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 35040.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 35520.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 35520.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 35520.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 36000.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 36000.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 36000.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 36480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 36960.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 36960.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 36960.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 37440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 37440.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 37440.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 37920.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 38400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 38400.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 38400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 38880.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 38880.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 38880.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 39360.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 39840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 39840.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 39840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 40320.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 40320.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 40320.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 40800.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 41280.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 41280.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 41280.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 41760.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 41760.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 41760.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 42240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 42720.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 42720.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 42720.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 43200.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 43200.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 43200.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 43680.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 44160.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 44160.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 44160.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 44640.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 44640.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 44640.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 45120.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 45600.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 45600.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 45600.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 46080.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 46080.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 46080.0
+        },
+        {
+            "Octave": 1,
+            "NoteNumber": 33,
+            "Length": 479.0,
+            "Time": 46560.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 47040.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 47040.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 47040.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 47520.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 47520.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 47520.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 38,
+            "Length": 479.0,
+            "Time": 48000.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 48480.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 48480.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 48480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 48960.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 48960.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 48960.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 43,
+            "Length": 479.0,
+            "Time": 49440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 49920.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 49920.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 49920.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 50400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 50400.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 50400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 48,
+            "Length": 479.0,
+            "Time": 50880.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 51360.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 51360.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 51360.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 51840.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 51840.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 51840.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 52320.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 52800.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 52800.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 52800.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 53280.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 53280.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 53280.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 38,
+            "Length": 479.0,
+            "Time": 53760.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 54240.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 54240.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 54240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 54720.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 54720.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 54720.0
+        },
+        {
+            "Octave": 1,
+            "NoteNumber": 35,
+            "Length": 479.0,
+            "Time": 55200.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 55680.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 55680.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 63,
+            "Length": 479.0,
+            "Time": 55680.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 56160.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 56160.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 63,
+            "Length": 479.0,
+            "Time": 56160.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 56640.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 57120.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 57120.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 57120.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 58080.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 58560.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 58560.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 58560.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 59040.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 59040.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 59040.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 59520.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 60000.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 60000.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 60000.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 60480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 60480.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 60480.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 60960.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 61440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 61440.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 61440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 61920.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 61920.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 61920.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 62400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 62880.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 62880.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 62880.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 63360.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 63360.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 63360.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 63840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 64320.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 64320.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 64320.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 64800.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 64800.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 64800.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 65280.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 65760.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 65760.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 65760.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 66240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 66240.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 66240.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 66720.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 67200.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 67200.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 67200.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 67680.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 67680.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 67680.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 68160.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 68640.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 68640.0
+        },
+        {
+            "Octave": 1,
+            "NoteNumber": 33,
+            "Length": 479.0,
+            "Time": 69600.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 70080.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 70080.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 70080.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 70560.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 70560.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 70560.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 38,
+            "Length": 479.0,
+            "Time": 71040.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 71520.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 71520.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 71520.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 72000.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 72000.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 72000.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 43,
+            "Length": 479.0,
+            "Time": 72480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 72960.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 72960.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 72960.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 73440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 73440.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 73440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 48,
+            "Length": 479.0,
+            "Time": 73920.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 74400.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 74400.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 74400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 74880.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 74880.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 74880.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 75360.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 75840.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 75840.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 75840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 76320.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 76320.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 76320.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 38,
+            "Length": 479.0,
+            "Time": 76800.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 77280.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 77280.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 77280.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 77760.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 77760.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 77760.0
+        },
+        {
+            "Octave": 1,
+            "NoteNumber": 35,
+            "Length": 479.0,
+            "Time": 78240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 78720.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 78720.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 63,
+            "Length": 479.0,
+            "Time": 78720.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 79200.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 79200.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 63,
+            "Length": 479.0,
+            "Time": 79200.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 79680.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 80160.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 80160.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 80160.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 81120.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 81600.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 81600.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 81600.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 82080.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 82080.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 82080.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 82560.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 83040.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 83040.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 83040.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 83520.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 83520.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 83520.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 84000.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 84480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 84480.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 84480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 84960.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 84960.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 84960.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 85440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 85920.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 85920.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 85920.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 86400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 86400.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 86400.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 86880.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 87360.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 87360.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 87360.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 87840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 87840.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 87840.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 88320.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 88800.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 88800.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 88800.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 89280.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 89280.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 89280.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 89760.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 90240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 90240.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 90240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 90720.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 90720.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 90720.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 91200.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 91680.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 61,
+            "Length": 479.0,
+            "Time": 91680.0
+        },
+        {
+            "Octave": 1,
+            "NoteNumber": 33,
+            "Length": 479.0,
+            "Time": 92640.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 93120.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 93120.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 93120.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 93600.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 93600.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 93600.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 38,
+            "Length": 479.0,
+            "Time": 94080.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 94560.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 94560.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 94560.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 95040.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 95040.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 95040.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 43,
+            "Length": 479.0,
+            "Time": 95520.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 96000.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 96000.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 96000.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 96480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 96480.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 96480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 48,
+            "Length": 479.0,
+            "Time": 96960.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 97440.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 97440.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 97440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 97920.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 97920.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 97920.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 98400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 98880.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 98880.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 98880.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 99360.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 99360.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 99360.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 38,
+            "Length": 479.0,
+            "Time": 99840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 100320.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 100320.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 100320.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 100800.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 100800.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 100800.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 43,
+            "Length": 479.0,
+            "Time": 101280.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 101760.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 101760.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 101760.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 102240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 102240.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 102240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 48,
+            "Length": 479.0,
+            "Time": 102720.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 55,
+            "Length": 479.0,
+            "Time": 103200.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 103200.0
+        },
+        {
+            "Octave": 1,
+            "NoteNumber": 33,
+            "Length": 479.0,
+            "Time": 104160.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 104640.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 104640.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 104640.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 105120.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 105120.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 105120.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 38,
+            "Length": 479.0,
+            "Time": 105600.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 106080.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 106080.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 106080.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 106560.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 106560.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 106560.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 107040.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 107520.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 107520.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 107520.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 108000.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 108000.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 108000.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 108480.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 108960.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 108960.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 108960.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 109440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 109440.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 109440.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 48,
+            "Length": 479.0,
+            "Time": 109920.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 110400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 110400.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 64,
+            "Length": 479.0,
+            "Time": 110400.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 50,
+            "Length": 479.0,
+            "Time": 111360.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 111840.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 111840.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 65,
+            "Length": 479.0,
+            "Time": 111840.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 479.0,
+            "Time": 112800.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 113280.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 113280.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 113760.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 59,
+            "Length": 479.0,
+            "Time": 113760.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 62,
+            "Length": 479.0,
+            "Time": 113760.0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 479.0,
+            "Time": 114240.0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 479.0,
+            "Time": 114720.0
+        },
+        {
+            "Octave": 4,
+            "NoteNumber": 60,
+            "Length": 479.0,
+            "Time": 114720.0
+        }
+    ]
+}

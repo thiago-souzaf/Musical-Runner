@@ -18,6 +18,7 @@ public class ConvertMIDIToJson : MonoBehaviour
     {
         ReadFromMIDI();
         WriteJSON();
+        Debug.Log("Conversion done!");
     }
 
     void ReadFromMIDI()

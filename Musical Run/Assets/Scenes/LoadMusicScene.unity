@@ -240,9 +240,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d10d3a0aaac2254f96e7f4c871b80bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathToMelodyMIDI: Assets/Audio/MIDI Files/Fur_elise_melody.mid
-  pathToAccompanimentMIDI: Assets/Audio/MIDI Files/Fur_elise_accompaniment.mid
-  musicName: Fur_elise
+  pathToMelodyMIDI: Assets/Audio/MIDI Files/Waltz_melody.mid
+  pathToAccompanimentMIDI: Assets/Audio/MIDI Files/Waltz_accompaniment.mid
+  musicName: Waltz_in_A_minor
 --- !u!4 &2097200380
 Transform:
   m_ObjectHideFlags: 0

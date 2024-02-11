@@ -7,6 +7,8 @@ public class NoteHandle : MonoBehaviour
     [SerializeField] private bool isAccompaniment;
 
     [HideInInspector] public NoteInfo note;
+    [HideInInspector] public bool isLast;
+
     private AudioSource audioSource;
     private int noteInterval;
 
@@ -46,13 +48,13 @@ public class NoteHandle : MonoBehaviour
 
     void CollectNote()
     {
-        PlayNote();
-        DestroyNote();
-        float noteDuration = 60f * note.Length / (gameManager.musicBPM * gameManager.notesPerBeat * gameManager.minNoteLength);
-        Invoke(nameof(StopPlay), noteDuration);
-
         if(!isAccompaniment)
             gameManager.IncrementScore(scoreValue);
+        PlayNote();
+        DestroyNote();
+        float noteDuration = 60f * note.Length / (gameManager.musicBPM * gameManager.beatInterval);
+        Invoke(nameof(StopPlay), noteDuration);
+
     }
 
     void StopPlay()
@@ -66,6 +68,11 @@ public class NoteHandle : MonoBehaviour
             sr.enabled = false;
         }
         GetComponent<BoxCollider2D>().enabled = false;
+
+        if (isLast)
+        {
+            gameManager.FinishLevel();
+        }
         Destroy(gameObject, 2f);
     }
 }
