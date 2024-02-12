@@ -14,7 +14,8 @@ public class ConvertMIDIToJson : MonoBehaviour
     private IEnumerable<Note> notes;
     private IEnumerable<Note> accNotes;
 
-    private void Start()
+    [ContextMenu("Convert MIDI to JSON")]
+    private void Convert()
     {
         ReadFromMIDI();
         WriteJSON();

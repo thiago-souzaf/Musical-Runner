@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 37.2
-  timeToEnableCollision: 0.41
+  timeToEnableCollision: 0.3
 --- !u!95 &6052186699719278485
 Animator:
   serializedVersion: 7

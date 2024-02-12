@@ -4,8 +4,8 @@ using System.Collections;
 public class SpawnManager : MonoBehaviour
 {
     [Header("Prefabs")]
-    [SerializeField] private GameObject melodyNotePrefab;
-    [SerializeField] private GameObject accompanimentNotePrefab;
+    [SerializeField] private string melodyTag;
+    [SerializeField] private string accompanimentTag;
 
     [Header("Json Files")]
     [SerializeField] private TextAsset melodyJSON;
@@ -21,6 +21,7 @@ public class SpawnManager : MonoBehaviour
     private NoteInfo[] accNotes;
 
     private GameManager gameManager;
+    private NotesPooler notesPooler;
 
     private void Start()
     {
@@ -30,6 +31,7 @@ public class SpawnManager : MonoBehaviour
         musicStartTime = Time.time;
 
         gameManager = GameManager.Instance;
+        notesPooler = NotesPooler.instance;
 
         StartCoroutine(SpawnMelodyNotes());
         StartCoroutine(SpawnAccompaniment());
@@ -59,7 +61,7 @@ public class SpawnManager : MonoBehaviour
             yield return new WaitForSeconds(GetWaitTime(note.Time));
 
             // Instantiate after waiting
-            noteSpawned = SpawnNote(note, melodyNotePrefab, melodySpawnPos);
+            noteSpawned = SpawnNote(note, melodyTag, melodySpawnPos);
         }
 
         noteSpawned.isLast = true;
@@ -75,14 +77,15 @@ public class SpawnManager : MonoBehaviour
             yield return new WaitForSeconds(GetWaitTime(note.Time));
 
             // Instantiate after waiting
-            SpawnNote(note, accompanimentNotePrefab, accompanimentSpawnPosition);
+            SpawnNote(note, accompanimentTag, accompanimentSpawnPosition);
         }
     }
 
-    private NoteHandle SpawnNote(NoteInfo note, GameObject notePrefab, Vector2 spawnPosition)
+    private NoteHandle SpawnNote(NoteInfo note, string dictTag, Vector2 spawnPosition)
     {
-        NoteHandle nh_note = Instantiate(notePrefab, spawnPosition, Quaternion.identity, transform).GetComponent<NoteHandle>();
-        nh_note.note = note;
+        GameObject noteSpawned = notesPooler.SpawnFromPool(dictTag, spawnPosition, Quaternion.identity, note);
+        NoteHandle nh_note = noteSpawned.GetComponent<NoteHandle>();
+
         return nh_note;
     }
 

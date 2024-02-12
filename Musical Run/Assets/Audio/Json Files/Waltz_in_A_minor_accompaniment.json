@@ -829,6 +829,12 @@
             "Time": 29280.0
         },
         {
+            "Octave": 5,
+            "NoteNumber": 76,
+            "Length": 95.0,
+            "Time": 29760.0
+        },
+        {
             "Octave": 3,
             "NoteNumber": 52,
             "Length": 479.0,
@@ -845,6 +851,18 @@
             "NoteNumber": 62,
             "Length": 479.0,
             "Time": 29760.0
+        },
+        {
+            "Octave": 5,
+            "NoteNumber": 83,
+            "Length": 95.0,
+            "Time": 29952.0
+        },
+        {
+            "Octave": 5,
+            "NoteNumber": 80,
+            "Length": 95.0,
+            "Time": 30144.0
         },
         {
             "Octave": 3,
@@ -1165,6 +1183,12 @@
             "Time": 40800.0
         },
         {
+            "Octave": 5,
+            "NoteNumber": 76,
+            "Length": 95.0,
+            "Time": 41280.0
+        },
+        {
             "Octave": 3,
             "NoteNumber": 52,
             "Length": 479.0,
@@ -1181,6 +1205,18 @@
             "NoteNumber": 62,
             "Length": 479.0,
             "Time": 41280.0
+        },
+        {
+            "Octave": 5,
+            "NoteNumber": 83,
+            "Length": 95.0,
+            "Time": 41472.0
+        },
+        {
+            "Octave": 5,
+            "NoteNumber": 80,
+            "Length": 95.0,
+            "Time": 41664.0
         },
         {
             "Octave": 3,

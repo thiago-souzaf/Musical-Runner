@@ -1,9 +1,9 @@
+using System.Collections;
 using UnityEngine;
 
-public class NoteHandle : MonoBehaviour
+public class NoteHandle : MonoBehaviour, IPooledObject
 {
-    public int scoreValue;
-
+    [SerializeField] private int scoreValue;
     [SerializeField] private bool isAccompaniment;
 
     [HideInInspector] public NoteInfo note;
@@ -11,22 +11,31 @@ public class NoteHandle : MonoBehaviour
 
     private AudioSource audioSource;
     private int noteInterval;
+    private float noteDuration;
 
     private GameManager gameManager;
 
-    private void Start()
+
+    public void OnObjectSpawn()
     {
         int octave = note.Octave;
         noteInterval = note.NoteNumber - ((octave + 1) * 12);
+
+
 
         audioSource = GetComponent<AudioSource>();
         gameManager = GameManager.Instance;
         audioSource.clip = gameManager.CNoteClips[octave - 1];
 
+        noteDuration = 60f * note.Length / (gameManager.musicBPM * gameManager.beatInterval);
+
         float newPitch = Mathf.Pow(2, noteInterval / 12.0f);
         audioSource.pitch = newPitch;
 
+        if (TryGetComponent(out SpriteRenderer sr))
+            sr.enabled = true;
 
+        GetComponent<BoxCollider2D>().enabled = true;
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -52,12 +61,13 @@ public class NoteHandle : MonoBehaviour
             gameManager.IncrementScore(scoreValue);
         PlayNote();
         DestroyNote();
-        float noteDuration = 60f * note.Length / (gameManager.musicBPM * gameManager.beatInterval);
-        Invoke(nameof(StopPlay), noteDuration);
+
+
+        Invoke(nameof(StopNote), noteDuration);
 
     }
 
-    void StopPlay()
+    void StopNote()
     {
         audioSource.Stop();
     }
@@ -73,6 +83,13 @@ public class NoteHandle : MonoBehaviour
         {
             gameManager.FinishLevel();
         }
-        Destroy(gameObject, 2f);
+
+        StartCoroutine(DeactivateNote(false, noteDuration));
     }
+
+    IEnumerator DeactivateNote(bool active, float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        gameObject.SetActive(active);
+    } 
 }

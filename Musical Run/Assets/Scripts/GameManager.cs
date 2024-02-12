@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     public AudioClip[] CNoteClips;
 
     [Space(50f)]
+
     #region Score Management
     [Header("Score management")]
     [Tooltip("Number of notes needed to increase multiply value")]
@@ -60,7 +61,6 @@ public class GameManager : MonoBehaviour
             IncrementMultiplier();
             noteStreak = 0;
         }
-
         noteStreakSlider.value = noteStreak;
     }
 
@@ -77,19 +77,17 @@ public class GameManager : MonoBehaviour
         multiplyValue++;
         multiplierText.text = "x" + multiplyValue;
     }
-
-    #endregion
-
-
-    public void FinishLevel()
-    {
-        onLevelFinish.Invoke(m_Score);
-    }
-
     private void ResetScore()
     {
         m_Score = 0;
         ResetStreak();
+    }
+
+    #endregion
+
+    public void FinishLevel()
+    {
+        onLevelFinish.Invoke(m_Score);
     }
 
     private void OnLevelWasLoaded(int level)
