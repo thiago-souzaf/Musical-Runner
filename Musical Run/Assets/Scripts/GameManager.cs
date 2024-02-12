@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     [Header("Music information")]
     public int beatInterval;
     public int musicBPM;
+    public int numberOfMelodyNotes;
 
     [Space]
     [Tooltip("Distance in units between 2 beats")]
@@ -88,6 +89,11 @@ public class GameManager : MonoBehaviour
     public void FinishLevel()
     {
         onLevelFinish.Invoke(m_Score);
+    }
+
+    private void Start()
+    {
+        ResetScore();
     }
 
     private void OnLevelWasLoaded(int level)
