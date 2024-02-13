@@ -58,7 +58,10 @@ public class ConvertMIDIToJson : MonoBehaviour
                 Octave = note.Octave,
                 NoteNumber = note.NoteNumber,
                 Length = note.Length,
-                Time = note.Time
+                Time = note.Time,
+                EndTime = note.EndTime,
+                Velocity = note.Velocity,
+                OffVelocity = note.OffVelocity,
             };
 
             notesArray[index] = currentNote;

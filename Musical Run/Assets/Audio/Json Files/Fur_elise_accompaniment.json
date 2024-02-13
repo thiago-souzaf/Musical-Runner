@@ -3,13 +3,13 @@
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
+            "Length": 359.0,
             "Time": 960.0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
+            "Length": 239.0,
             "Time": 1080.0
         },
         {
@@ -21,13 +21,13 @@
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
+            "Length": 359.0,
             "Time": 1680.0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
+            "Length": 239.0,
             "Time": 1800.0
         },
         {
