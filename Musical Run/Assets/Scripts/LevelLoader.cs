@@ -30,7 +30,7 @@ public class LevelLoader : MonoBehaviour
         {
             float progress = Mathf.Clamp01(operation.progress / 0.9f);
             progressBar.value = progress;
-            percentageText.text = progress * 100 + "%";
+            percentageText.text = (int)(progress * 100) + "%";
 
             yield return null;
         }

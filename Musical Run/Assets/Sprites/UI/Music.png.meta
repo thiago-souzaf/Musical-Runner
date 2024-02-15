@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 50ba429e082debb4c93ba920ed1b8d93
+guid: 3bc5f025b273b5544bd950e71368ec1b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 214582040267025251
-    second: background_2_0
+      213: 2960129069727128441
+    second: musica 2_0
+  - first:
+      213: 5021241634252219391
+    second: musica 2_1
+  - first:
+      213: 2224691044916035226
+    second: musica 2_2
+  - first:
+      213: 1168648423826129706
+    second: musica 2_3
+  - first:
+      213: 4140535543379808033
+    second: musica 2_4
+  - first:
+      213: 2308863011917834606
+    second: musica 2_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +61,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background_2_0
+      name: musica 2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 288
-        height: 60
+        y: 74
+        width: 122
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +155,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36b6b4d8a395af200800000000000000
-      internalID: 214582040267025251
+      spriteID: 97b946a94bd741920800000000000000
+      internalID: 2960129069727128441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musica 2_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 194
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff36105a9a80fa540800000000000000
+      internalID: 5021241634252219391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musica 2_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 209
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e763be7b0bfde10800000000000000
+      internalID: 2224691044916035226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musica 2_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 194
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a230a79bc8fd73010800000000000000
+      internalID: 1168648423826129706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musica 2_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 29
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f4803a323267930800000000000000
+      internalID: 4140535543379808033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musica 2_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69a66c2daaba0020800000000000000
+      internalID: 2308863011917834606
       vertices: []
       indices: 
       edges: []
@@ -149,7 +269,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -157,7 +277,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      background_2_0: 214582040267025251
+      musica 2_0: 2960129069727128441
+      musica 2_1: 5021241634252219391
+      musica 2_2: 2224691044916035226
+      musica 2_3: 1168648423826129706
+      musica 2_4: 4140535543379808033
+      musica 2_5: 2308863011917834606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
