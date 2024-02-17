@@ -97,4 +97,12 @@ public class SpawnManager : MonoBehaviour
 
         return waitTime;
     }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        MusicInfo selectedMusic = MusicSelection.Instance.SelectedMusic;
+
+        melodyJSON = selectedMusic.melodyJson;
+        accompanimentJSON = selectedMusic.accompanimentJson;
+    }
 }

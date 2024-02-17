@@ -5,6 +5,7 @@ public class NoteHandle : MonoBehaviour, IPooledObject
 {
     [SerializeField] private int scoreValue;
     [SerializeField] private bool isAccompaniment;
+    [SerializeField] private GameObject collectedParticleSystem;
 
     [HideInInspector] public NoteInfo note;
     [HideInInspector] public bool isLast;
@@ -15,16 +16,17 @@ public class NoteHandle : MonoBehaviour, IPooledObject
 
     private GameManager gameManager;
 
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        gameManager = GameManager.Instance;
+    }
 
     public void OnObjectSpawn()
     {
         int octave = note.Octave;
         noteInterval = note.NoteNumber - ((octave + 1) * 12);
 
-
-
-        audioSource = GetComponent<AudioSource>();
-        gameManager = GameManager.Instance;
         audioSource.clip = gameManager.CNoteClips[octave - 1];
 
         noteDuration = 60f * note.Length / (gameManager.musicBPM * gameManager.beatInterval);
@@ -36,6 +38,9 @@ public class NoteHandle : MonoBehaviour, IPooledObject
             sr.enabled = true;
 
         GetComponent<BoxCollider2D>().enabled = true;
+
+        if (collectedParticleSystem != null)
+            collectedParticleSystem.SetActive(false);
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -62,6 +67,8 @@ public class NoteHandle : MonoBehaviour, IPooledObject
         PlayNote();
         DestroyNote();
 
+        if (collectedParticleSystem != null)
+            collectedParticleSystem.SetActive(true);
 
         Invoke(nameof(StopNote), noteDuration);
 
@@ -84,12 +91,12 @@ public class NoteHandle : MonoBehaviour, IPooledObject
             gameManager.FinishLevel();
         }
 
-        StartCoroutine(DeactivateNote(false, noteDuration));
+        StartCoroutine(DeactivateNote(noteDuration));
     }
 
-    IEnumerator DeactivateNote(bool active, float waitTime)
+    IEnumerator DeactivateNote(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
-        gameObject.SetActive(active);
+        gameObject.SetActive(false);
     } 
 }

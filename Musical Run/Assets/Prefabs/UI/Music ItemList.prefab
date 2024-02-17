@@ -49,6 +49,7 @@ GameObject:
   - component: {fileID: 2383645116441254493}
   - component: {fileID: 3562401040399888424}
   - component: {fileID: 3663289181892373423}
+  - component: {fileID: 4086049142151858742}
   m_Layer: 5
   m_Name: Music ItemList
   m_TagString: Untagged
@@ -161,6 +162,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4086049142151858742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336619891640548561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f26179e5956efe4fa8cacdcb34029ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  info: {fileID: 0}
+  musicName: {fileID: 3226259375025838530}
+  composerName: {fileID: 6867289984852214468}
+  time: {fileID: 8162755012550315586}
 --- !u!1 &3242545823873623736
 GameObject:
   m_ObjectHideFlags: 0

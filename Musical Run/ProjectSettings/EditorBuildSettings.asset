@@ -9,11 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 1d31b5b6c9adb23458de8e773b07e1d6
   - enabled: 1
-    path: Assets/Scenes/FurElise.unity
-    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
-  - enabled: 1
-    path: Assets/Scenes/WaltzInAMinor.unity
-    guid: fa4246d1fedb51f43a06d8c1342a7d46
+    path: Assets/Scenes/RunScene.unity
+    guid: b46bae7120b2de94caaea568784f1556
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 25d67f31149b66b45bd1f246fd32dd1c, type: 2}
   m_UseUCBPForAssetBundles: 0

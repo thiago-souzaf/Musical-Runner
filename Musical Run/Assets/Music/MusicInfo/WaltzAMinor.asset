@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9362af10457dba64da65c900311874d6, type: 3}
-  m_Name: FurElise
+  m_Name: WaltzAMinor
   m_EditorClassIdentifier: 
-  musicName: Fur Elise
-  composer: Ludwig van Beethoven
-  year: 1809 - 1810
+  musicName: Waltz in A minor
+  composer: Frederic Chopin
+  year: 1900
   key: A minor
-  highScore: 11000
-  totalTime: 1:56
+  highScore: 15000
+  totalTime: 1:50
   beatInterval: 480
-  musicBPM: 60
-  numberOfMelodyNotes: 350
-  beatsDistance: 15
-  melodyJson: {fileID: 4900000, guid: 1fd09efe4daadfe40a12e6141d4dad22, type: 3}
-  accompanimentJson: {fileID: 4900000, guid: 304e2568b006fc44cb9fc51a64f580fd, type: 3}
+  musicBPM: 120
+  numberOfMelodyNotes: 344
+  beatsDistance: 7
+  melodyJson: {fileID: 4900000, guid: 98c344f956f1ea640b2c1a5b1a665a07, type: 3}
+  accompanimentJson: {fileID: 4900000, guid: b70eb6e5b78b1c647b94662933a9061a, type: 3}
