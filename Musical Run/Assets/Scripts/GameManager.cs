@@ -99,10 +99,11 @@ public class GameManager : MonoBehaviour
     private void OnLevelWasLoaded(int level)
     {
         ResetScore();
-        MusicInfo selectedMusic = MusicSelection.Instance.SelectedMusic;
+        SettingsManager settingsManager = SettingsManager.Instance;
+        MusicInfo selectedMusic = settingsManager.SelectedMusic;
         beatInterval = selectedMusic.beatInterval;
         musicBPM = selectedMusic.musicBPM;
         numberOfMelodyNotes = selectedMusic.numberOfMelodyNotes;
-        beatsDistance = selectedMusic.beatsDistance;
+        beatsDistance = selectedMusic.beatsDistance * settingsManager.speedModifier;
     }
 }

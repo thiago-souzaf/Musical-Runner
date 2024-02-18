@@ -100,7 +100,7 @@ public class SpawnManager : MonoBehaviour
 
     private void OnLevelWasLoaded(int level)
     {
-        MusicInfo selectedMusic = MusicSelection.Instance.SelectedMusic;
+        MusicInfo selectedMusic = SettingsManager.Instance.SelectedMusic;
 
         melodyJSON = selectedMusic.melodyJson;
         accompanimentJSON = selectedMusic.accompanimentJson;

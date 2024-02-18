@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.Events;
 
-public class MusicSelection : MonoBehaviour
+public class SettingsManager : MonoBehaviour
 {
     #region Singleton
-    public static MusicSelection Instance { get; private set; }
+    public static SettingsManager Instance { get; private set; }
 
 
     private void Awake()
@@ -19,6 +20,7 @@ public class MusicSelection : MonoBehaviour
     }
     #endregion
 
+    public AudioMixer audioMixer;
 
     public UnityEvent<MusicInfo> OnSelectedMusicChange;
 
@@ -37,4 +39,11 @@ public class MusicSelection : MonoBehaviour
         }
     }
 
+    public float speedModifier = 1f;
+    public void ChangeVolume(float volume)
+    {
+        audioMixer.SetFloat("MasterVolume", volume);
+    }
+
+    
 }

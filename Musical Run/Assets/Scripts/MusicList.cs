@@ -30,7 +30,7 @@ public class MusicList : MonoBehaviour
 
         // Sets on clik event to change the selected music
         Button c_btn = btn.GetComponent<Button>();
-        c_btn.onClick.AddListener(() => MusicSelection.Instance.SelectedMusic = musicInfo);
+        c_btn.onClick.AddListener(() => SettingsManager.Instance.SelectedMusic = musicInfo);
     }
 
 }

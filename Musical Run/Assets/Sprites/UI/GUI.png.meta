@@ -489,13 +489,13 @@ TextureImporter:
       name: GUI_4
       rect:
         serializedVersion: 2
-        x: 51
-        y: 243
-        width: 42
-        height: 10
+        x: 50
+        y: 242
+        width: 44
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 4, y: 4, z: 4, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: -1

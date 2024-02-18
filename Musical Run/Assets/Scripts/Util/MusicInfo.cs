@@ -8,7 +8,6 @@ public class MusicInfo : ScriptableObject
     public string composer;
     public string year;
     public string key;
-    public int highScore;
     public string totalTime;
 
     [Header("Music info - Create scene")]
