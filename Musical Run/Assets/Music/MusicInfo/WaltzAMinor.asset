@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicName: Waltz in A minor
   composer: Frederic Chopin
-  year: 1900
+  year: 1847 - 1849
   key: A minor
-  highScore: 15000
-  totalTime: 1:50
+  totalTime: 1:59
   beatInterval: 480
   musicBPM: 120
   numberOfMelodyNotes: 344

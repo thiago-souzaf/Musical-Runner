@@ -16,8 +16,7 @@ MonoBehaviour:
   composer: Ludwig van Beethoven
   year: 1809 - 1810
   key: A minor
-  highScore: 11000
-  totalTime: 1:56
+  totalTime: 2:03
   beatInterval: 480
   musicBPM: 60
   numberOfMelodyNotes: 350

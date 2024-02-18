@@ -3,1712 +3,2558 @@
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 359.0,
-            "Time": 960.0
+            "Length": 719.0,
+            "Time": 960.0,
+            "EndTime": 1679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
+            "Length": 599.0,
+            "Time": 1080.0,
+            "EndTime": 1679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 1200.0,
+            "EndTime": 1679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 719.0,
+            "Time": 1680.0,
+            "EndTime": 2399.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 599.0,
+            "Time": 1800.0,
+            "EndTime": 2399.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 1920.0,
+            "EndTime": 2399.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 719.0,
+            "Time": 2400.0,
+            "EndTime": 3119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 599.0,
+            "Time": 2520.0,
+            "EndTime": 3119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 2640.0,
+            "EndTime": 3119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 719.0,
+            "Time": 3840.0,
+            "EndTime": 4559.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 599.0,
+            "Time": 3960.0,
+            "EndTime": 4559.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 4080.0,
+            "EndTime": 4559.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 719.0,
+            "Time": 4560.0,
+            "EndTime": 5279.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 599.0,
+            "Time": 4680.0,
+            "EndTime": 5279.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 4800.0,
+            "EndTime": 5279.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 119.0,
+            "Time": 5280.0,
+            "EndTime": 5399.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 119.0,
+            "Time": 5400.0,
+            "EndTime": 5519.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
             "Length": 239.0,
-            "Time": 1080.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 1200.0
+            "Time": 5520.0,
+            "EndTime": 5759.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
-            "NoteNumber": 40,
-            "Length": 359.0,
-            "Time": 1680.0
+            "NoteNumber": 45,
+            "Length": 719.0,
+            "Time": 6720.0,
+            "EndTime": 7439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
+            "Length": 599.0,
+            "Time": 6840.0,
+            "EndTime": 7439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 6960.0,
+            "EndTime": 7439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 719.0,
+            "Time": 7440.0,
+            "EndTime": 8159.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 599.0,
+            "Time": 7560.0,
+            "EndTime": 8159.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 7680.0,
+            "EndTime": 8159.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 719.0,
+            "Time": 8160.0,
+            "EndTime": 8879.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 599.0,
+            "Time": 8280.0,
+            "EndTime": 8879.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 8400.0,
+            "EndTime": 8879.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 719.0,
+            "Time": 9600.0,
+            "EndTime": 10319.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 599.0,
+            "Time": 9720.0,
+            "EndTime": 10319.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
+            "Length": 479.0,
+            "Time": 9840.0,
+            "EndTime": 10319.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 40,
+            "Length": 719.0,
+            "Time": 10320.0,
+            "EndTime": 11039.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 599.0,
+            "Time": 10440.0,
+            "EndTime": 11039.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 56,
+            "Length": 479.0,
+            "Time": 10560.0,
+            "EndTime": 11039.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 2,
+            "NoteNumber": 45,
+            "Length": 119.0,
+            "Time": 11040.0,
+            "EndTime": 11159.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 52,
+            "Length": 119.0,
+            "Time": 11160.0,
+            "EndTime": 11279.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 3,
+            "NoteNumber": 57,
             "Length": 239.0,
-            "Time": 1800.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 1920.0
-        },
-        {
-            "Octave": 2,
-            "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 2400.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 2520.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 2640.0
-        },
-        {
-            "Octave": 2,
-            "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 3840.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 3960.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 4080.0
-        },
-        {
-            "Octave": 2,
-            "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 4560.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 4680.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 4800.0
-        },
-        {
-            "Octave": 2,
-            "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 5280.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 5400.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 5520.0
-        },
-        {
-            "Octave": 2,
-            "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 6720.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 6840.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 6960.0
-        },
-        {
-            "Octave": 2,
-            "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 7440.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 7560.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 7680.0
-        },
-        {
-            "Octave": 2,
-            "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 8160.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 8280.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 8400.0
-        },
-        {
-            "Octave": 2,
-            "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 9600.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 9720.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 9840.0
-        },
-        {
-            "Octave": 2,
-            "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 10320.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 10440.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 10560.0
-        },
-        {
-            "Octave": 2,
-            "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 11040.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 11160.0
-        },
-        {
-            "Octave": 3,
-            "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 11280.0
+            "Time": 11280.0,
+            "EndTime": 11519.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 48,
-            "Length": 119.0,
-            "Time": 11760.0
+            "Length": 719.0,
+            "Time": 11760.0,
+            "EndTime": 12479.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
-            "Length": 119.0,
-            "Time": 11880.0
+            "Length": 599.0,
+            "Time": 11880.0,
+            "EndTime": 12479.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
-            "Length": 119.0,
-            "Time": 12000.0
+            "Length": 479.0,
+            "Time": 12000.0,
+            "EndTime": 12479.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 43,
-            "Length": 119.0,
-            "Time": 12480.0
+            "Length": 719.0,
+            "Time": 12480.0,
+            "EndTime": 13199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
-            "Length": 119.0,
-            "Time": 12600.0
+            "Length": 599.0,
+            "Time": 12600.0,
+            "EndTime": 13199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 59,
-            "Length": 119.0,
-            "Time": 12720.0
+            "Length": 479.0,
+            "Time": 12720.0,
+            "EndTime": 13199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 13200.0
+            "Length": 2159.0,
+            "Time": 13200.0,
+            "EndTime": 15359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 13320.0
+            "Length": 2039.0,
+            "Time": 13320.0,
+            "EndTime": 15359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 13440.0
+            "Length": 1919.0,
+            "Time": 13440.0,
+            "EndTime": 15359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 13920.0
+            "Length": 1439.0,
+            "Time": 13920.0,
+            "EndTime": 15359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 14040.0
+            "Length": 1319.0,
+            "Time": 14040.0,
+            "EndTime": 15359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
-            "Length": 119.0,
-            "Time": 14160.0
+            "Length": 1199.0,
+            "Time": 14160.0,
+            "EndTime": 15359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
-            "Length": 119.0,
-            "Time": 14520.0
+            "Length": 839.0,
+            "Time": 14520.0,
+            "EndTime": 15359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 76,
-            "Length": 119.0,
-            "Time": 14640.0
+            "Length": 719.0,
+            "Time": 14640.0,
+            "EndTime": 15359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 5,
+            "NoteNumber": 75,
+            "Length": 359.0,
+            "Time": 15000.0,
+            "EndTime": 15359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 5,
+            "NoteNumber": 76,
+            "Length": 239.0,
+            "Time": 15120.0,
+            "EndTime": 15359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 75,
             "Length": 119.0,
-            "Time": 15000.0
+            "Time": 15480.0,
+            "EndTime": 15599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 76,
-            "Length": 119.0,
-            "Time": 15120.0
-        },
-        {
-            "Octave": 5,
-            "NoteNumber": 75,
-            "Length": 119.0,
-            "Time": 15480.0
-        },
-        {
-            "Octave": 5,
-            "NoteNumber": 76,
-            "Length": 119.0,
-            "Time": 15600.0
+            "Length": 239.0,
+            "Time": 15600.0,
+            "EndTime": 15839.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 16800.0
+            "Length": 719.0,
+            "Time": 16800.0,
+            "EndTime": 17519.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 16920.0
+            "Length": 599.0,
+            "Time": 16920.0,
+            "EndTime": 17519.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 17040.0
+            "Length": 479.0,
+            "Time": 17040.0,
+            "EndTime": 17519.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 17520.0
+            "Length": 719.0,
+            "Time": 17520.0,
+            "EndTime": 18239.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 17640.0
+            "Length": 599.0,
+            "Time": 17640.0,
+            "EndTime": 18239.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 17760.0
+            "Length": 479.0,
+            "Time": 17760.0,
+            "EndTime": 18239.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 18240.0
+            "Length": 719.0,
+            "Time": 18240.0,
+            "EndTime": 18959.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 18360.0
+            "Length": 599.0,
+            "Time": 18360.0,
+            "EndTime": 18959.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 18480.0
+            "Length": 479.0,
+            "Time": 18480.0,
+            "EndTime": 18959.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 19680.0
+            "Length": 719.0,
+            "Time": 19680.0,
+            "EndTime": 20399.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 19800.0
+            "Length": 599.0,
+            "Time": 19800.0,
+            "EndTime": 20399.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 19920.0
+            "Length": 479.0,
+            "Time": 19920.0,
+            "EndTime": 20399.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 20400.0
+            "Length": 719.0,
+            "Time": 20400.0,
+            "EndTime": 21119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 20520.0
+            "Length": 599.0,
+            "Time": 20520.0,
+            "EndTime": 21119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 20640.0
+            "Length": 479.0,
+            "Time": 20640.0,
+            "EndTime": 21119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
             "Length": 119.0,
-            "Time": 21120.0
+            "Time": 21120.0,
+            "EndTime": 21239.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
             "Length": 119.0,
-            "Time": 21240.0
+            "Time": 21240.0,
+            "EndTime": 21359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 21360.0
+            "Length": 239.0,
+            "Time": 21360.0,
+            "EndTime": 21599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 48,
-            "Length": 119.0,
-            "Time": 21840.0
+            "Length": 719.0,
+            "Time": 21840.0,
+            "EndTime": 22559.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
-            "Length": 119.0,
-            "Time": 21960.0
+            "Length": 599.0,
+            "Time": 21960.0,
+            "EndTime": 22559.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
-            "Length": 119.0,
-            "Time": 22080.0
+            "Length": 479.0,
+            "Time": 22080.0,
+            "EndTime": 22559.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 43,
-            "Length": 119.0,
-            "Time": 22560.0
+            "Length": 719.0,
+            "Time": 22560.0,
+            "EndTime": 23279.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
-            "Length": 119.0,
-            "Time": 22680.0
+            "Length": 599.0,
+            "Time": 22680.0,
+            "EndTime": 23279.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 59,
-            "Length": 119.0,
-            "Time": 22800.0
+            "Length": 479.0,
+            "Time": 22800.0,
+            "EndTime": 23279.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 23280.0
+            "Length": 2159.0,
+            "Time": 23280.0,
+            "EndTime": 25439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 23400.0
+            "Length": 2039.0,
+            "Time": 23400.0,
+            "EndTime": 25439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 23520.0
+            "Length": 1919.0,
+            "Time": 23520.0,
+            "EndTime": 25439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 24000.0
+            "Length": 1439.0,
+            "Time": 24000.0,
+            "EndTime": 25439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 24120.0
+            "Length": 1319.0,
+            "Time": 24120.0,
+            "EndTime": 25439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
-            "Length": 119.0,
-            "Time": 24240.0
+            "Length": 1199.0,
+            "Time": 24240.0,
+            "EndTime": 25439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
-            "Length": 119.0,
-            "Time": 24600.0
+            "Length": 839.0,
+            "Time": 24600.0,
+            "EndTime": 25439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 76,
-            "Length": 119.0,
-            "Time": 24720.0
+            "Length": 719.0,
+            "Time": 24720.0,
+            "EndTime": 25439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 5,
+            "NoteNumber": 75,
+            "Length": 359.0,
+            "Time": 25080.0,
+            "EndTime": 25439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 5,
+            "NoteNumber": 76,
+            "Length": 239.0,
+            "Time": 25200.0,
+            "EndTime": 25439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 75,
             "Length": 119.0,
-            "Time": 25080.0
+            "Time": 25560.0,
+            "EndTime": 25679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 76,
-            "Length": 119.0,
-            "Time": 25200.0
-        },
-        {
-            "Octave": 5,
-            "NoteNumber": 75,
-            "Length": 119.0,
-            "Time": 25560.0
-        },
-        {
-            "Octave": 5,
-            "NoteNumber": 76,
-            "Length": 119.0,
-            "Time": 25680.0
+            "Length": 239.0,
+            "Time": 25680.0,
+            "EndTime": 25919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 26880.0
+            "Length": 719.0,
+            "Time": 26880.0,
+            "EndTime": 27599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 27000.0
+            "Length": 599.0,
+            "Time": 27000.0,
+            "EndTime": 27599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 27120.0
+            "Length": 479.0,
+            "Time": 27120.0,
+            "EndTime": 27599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 27600.0
+            "Length": 719.0,
+            "Time": 27600.0,
+            "EndTime": 28319.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 27720.0
+            "Length": 599.0,
+            "Time": 27720.0,
+            "EndTime": 28319.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 27840.0
+            "Length": 479.0,
+            "Time": 27840.0,
+            "EndTime": 28319.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 28320.0
+            "Length": 719.0,
+            "Time": 28320.0,
+            "EndTime": 29039.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 28440.0
+            "Length": 599.0,
+            "Time": 28440.0,
+            "EndTime": 29039.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 28560.0
+            "Length": 479.0,
+            "Time": 28560.0,
+            "EndTime": 29039.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 29760.0
+            "Length": 719.0,
+            "Time": 29760.0,
+            "EndTime": 30479.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 29880.0
+            "Length": 599.0,
+            "Time": 29880.0,
+            "EndTime": 30479.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 30000.0
+            "Length": 479.0,
+            "Time": 30000.0,
+            "EndTime": 30479.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 30480.0
+            "Length": 719.0,
+            "Time": 30480.0,
+            "EndTime": 31199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 30600.0
+            "Length": 599.0,
+            "Time": 30600.0,
+            "EndTime": 31199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 30720.0
+            "Length": 479.0,
+            "Time": 30720.0,
+            "EndTime": 31199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
             "Length": 119.0,
-            "Time": 31200.0
+            "Time": 31200.0,
+            "EndTime": 31319.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
             "Length": 119.0,
-            "Time": 31320.0
+            "Time": 31320.0,
+            "EndTime": 31439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 31440.0
+            "Time": 31440.0,
+            "EndTime": 31559.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 72,
             "Length": 119.0,
-            "Time": 31560.0
+            "Time": 31560.0,
+            "EndTime": 31679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 58,
             "Length": 119.0,
-            "Time": 31560.0
+            "Time": 31560.0,
+            "EndTime": 31679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 119.0,
-            "Time": 31560.0
+            "Time": 31560.0,
+            "EndTime": 31679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 72,
             "Length": 119.0,
-            "Time": 31680.0
+            "Time": 31680.0,
+            "EndTime": 31799.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 31680.0
+            "Time": 31680.0,
+            "EndTime": 31799.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 119.0,
-            "Time": 31680.0
+            "Time": 31680.0,
+            "EndTime": 31799.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
             "Length": 119.0,
-            "Time": 31800.0
+            "Time": 31800.0,
+            "EndTime": 31919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 72,
             "Length": 119.0,
-            "Time": 31800.0
+            "Time": 31800.0,
+            "EndTime": 31919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
             "Length": 119.0,
-            "Time": 31800.0
+            "Time": 31800.0,
+            "EndTime": 31919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 58,
             "Length": 119.0,
-            "Time": 31800.0
+            "Time": 31800.0,
+            "EndTime": 31919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 119.0,
-            "Time": 31800.0
+            "Time": 31800.0,
+            "EndTime": 31919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 53,
             "Length": 119.0,
-            "Time": 31920.0
+            "Time": 31920.0,
+            "EndTime": 32039.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 32040.0
+            "Time": 32040.0,
+            "EndTime": 32159.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 119.0,
-            "Time": 32160.0
+            "Time": 32160.0,
+            "EndTime": 32279.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 32280.0
+            "Time": 32280.0,
+            "EndTime": 32399.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 119.0,
-            "Time": 32400.0
+            "Time": 32400.0,
+            "EndTime": 32519.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 32520.0
+            "Time": 32520.0,
+            "EndTime": 32639.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 53,
             "Length": 119.0,
-            "Time": 32640.0
+            "Time": 32640.0,
+            "EndTime": 32759.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 58,
             "Length": 119.0,
-            "Time": 32760.0
+            "Time": 32760.0,
+            "EndTime": 32879.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 62,
             "Length": 119.0,
-            "Time": 32880.0
+            "Time": 32880.0,
+            "EndTime": 32999.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 58,
             "Length": 119.0,
-            "Time": 33000.0
+            "Time": 33000.0,
+            "EndTime": 33119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 62,
             "Length": 119.0,
-            "Time": 33120.0
+            "Time": 33120.0,
+            "EndTime": 33239.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 58,
             "Length": 119.0,
-            "Time": 33240.0
+            "Time": 33240.0,
+            "EndTime": 33359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 53,
             "Length": 119.0,
-            "Time": 33360.0
+            "Time": 33360.0,
+            "EndTime": 33479.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
             "Length": 119.0,
-            "Time": 33480.0
+            "Time": 33480.0,
+            "EndTime": 33599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 53,
             "Length": 119.0,
-            "Time": 33600.0
+            "Time": 33600.0,
+            "EndTime": 33719.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
             "Length": 119.0,
-            "Time": 33600.0
+            "Time": 33600.0,
+            "EndTime": 33719.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 58,
             "Length": 119.0,
-            "Time": 33600.0
+            "Time": 33600.0,
+            "EndTime": 33719.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
             "Length": 119.0,
-            "Time": 33720.0
+            "Time": 33720.0,
+            "EndTime": 33839.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 53,
             "Length": 119.0,
-            "Time": 33840.0
+            "Time": 33840.0,
+            "EndTime": 33959.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
             "Length": 119.0,
-            "Time": 33840.0
+            "Time": 33840.0,
+            "EndTime": 33959.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 58,
             "Length": 119.0,
-            "Time": 33840.0
+            "Time": 33840.0,
+            "EndTime": 33959.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
             "Length": 119.0,
-            "Time": 33960.0
+            "Time": 33960.0,
+            "EndTime": 34079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 53,
             "Length": 119.0,
-            "Time": 34080.0
+            "Time": 34080.0,
+            "EndTime": 34199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 34200.0
+            "Time": 34200.0,
+            "EndTime": 34319.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 119.0,
-            "Time": 34320.0
+            "Time": 34320.0,
+            "EndTime": 34439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 34440.0
+            "Time": 34440.0,
+            "EndTime": 34559.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 119.0,
-            "Time": 34560.0
+            "Time": 34560.0,
+            "EndTime": 34679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 67,
             "Length": 59.0,
-            "Time": 34620.0
+            "Time": 34620.0,
+            "EndTime": 34679.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 34680.0
+            "Time": 34680.0,
+            "EndTime": 34799.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 71,
             "Length": 59.0,
-            "Time": 34740.0
-        },
-        {
-            "Octave": 4,
-            "NoteNumber": 69,
-            "Length": 119.0,
-            "Time": 34800.0
+            "Time": 34740.0,
+            "EndTime": 34799.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 53,
             "Length": 119.0,
-            "Time": 34800.0
+            "Time": 34800.0,
+            "EndTime": 34919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 34920.0
+            "Time": 34920.0,
+            "EndTime": 35039.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 119.0,
-            "Time": 35040.0
+            "Time": 35040.0,
+            "EndTime": 35159.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 35160.0
+            "Time": 35160.0,
+            "EndTime": 35279.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 119.0,
-            "Time": 35280.0
+            "Time": 35280.0,
+            "EndTime": 35399.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 35400.0
+            "Time": 35400.0,
+            "EndTime": 35519.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
             "Length": 119.0,
-            "Time": 35520.0
+            "Time": 35520.0,
+            "EndTime": 35639.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 35640.0
+            "Time": 35640.0,
+            "EndTime": 35759.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 119.0,
-            "Time": 35760.0
+            "Time": 35760.0,
+            "EndTime": 35879.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 119.0,
-            "Time": 35880.0
+            "Time": 35880.0,
+            "EndTime": 35999.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 50,
             "Length": 119.0,
-            "Time": 36000.0
+            "Time": 36000.0,
+            "EndTime": 36119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 62,
             "Length": 119.0,
-            "Time": 36000.0
+            "Time": 36000.0,
+            "EndTime": 36119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 53,
             "Length": 119.0,
-            "Time": 36120.0
+            "Time": 36120.0,
+            "EndTime": 36239.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
             "Length": 119.0,
-            "Time": 36240.0
+            "Time": 36240.0,
+            "EndTime": 36359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
             "Length": 119.0,
-            "Time": 36360.0
+            "Time": 36360.0,
+            "EndTime": 36479.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
             "Length": 119.0,
-            "Time": 36480.0
+            "Time": 36480.0,
+            "EndTime": 36599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 65,
             "Length": 119.0,
-            "Time": 36600.0
+            "Time": 36600.0,
+            "EndTime": 36719.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
             "Length": 119.0,
-            "Time": 36720.0
+            "Time": 36720.0,
+            "EndTime": 36839.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 65,
             "Length": 119.0,
-            "Time": 36840.0
+            "Time": 36840.0,
+            "EndTime": 36959.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 71,
             "Length": 59.0,
-            "Time": 36900.0
+            "Time": 36900.0,
+            "EndTime": 36959.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 239.0,
-            "Time": 36960.0
+            "Time": 36960.0,
+            "EndTime": 37199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
             "Length": 239.0,
-            "Time": 36960.0
+            "Time": 36960.0,
+            "EndTime": 37199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 37020.0
+            "Time": 37020.0,
+            "EndTime": 37079.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 37140.0
+            "Time": 37140.0,
+            "EndTime": 37199.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 37260.0
+            "Time": 37260.0,
+            "EndTime": 37319.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 65,
             "Length": 119.0,
-            "Time": 37320.0
+            "Time": 37320.0,
+            "EndTime": 37439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 67,
             "Length": 119.0,
-            "Time": 37320.0
+            "Time": 37320.0,
+            "EndTime": 37439.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 37380.0
+            "Time": 37380.0,
+            "EndTime": 37439.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
             "Length": 119.0,
-            "Time": 37440.0
+            "Time": 37440.0,
+            "EndTime": 37559.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 67,
             "Length": 119.0,
-            "Time": 37440.0
+            "Time": 37440.0,
+            "EndTime": 37559.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 37500.0
+            "Time": 37500.0,
+            "EndTime": 37559.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 62,
             "Length": 119.0,
-            "Time": 37560.0
+            "Time": 37560.0,
+            "EndTime": 37679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 65,
             "Length": 119.0,
-            "Time": 37560.0
+            "Time": 37560.0,
+            "EndTime": 37679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 67,
             "Length": 119.0,
-            "Time": 37560.0
+            "Time": 37560.0,
+            "EndTime": 37679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 37620.0
+            "Time": 37620.0,
+            "EndTime": 37679.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 239.0,
-            "Time": 37680.0
+            "Time": 37680.0,
+            "EndTime": 37919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
             "Length": 239.0,
-            "Time": 37680.0
+            "Time": 37680.0,
+            "EndTime": 37919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 67,
             "Length": 239.0,
-            "Time": 37680.0
+            "Time": 37680.0,
+            "EndTime": 37919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 37740.0
+            "Time": 37740.0,
+            "EndTime": 37799.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 83,
             "Length": 59.0,
-            "Time": 37860.0
+            "Time": 37860.0,
+            "EndTime": 37919.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 53,
             "Length": 239.0,
-            "Time": 37920.0
+            "Time": 37920.0,
+            "EndTime": 38159.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 239.0,
-            "Time": 37920.0
+            "Time": 37920.0,
+            "EndTime": 38159.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 37980.0
+            "Time": 37980.0,
+            "EndTime": 38039.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 76,
             "Length": 59.0,
-            "Time": 38100.0
+            "Time": 38100.0,
+            "EndTime": 38159.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
             "Length": 239.0,
-            "Time": 38160.0
+            "Time": 38160.0,
+            "EndTime": 38399.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 59,
             "Length": 239.0,
-            "Time": 38160.0
+            "Time": 38160.0,
+            "EndTime": 38399.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 38220.0
+            "Time": 38220.0,
+            "EndTime": 38279.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 74,
             "Length": 59.0,
-            "Time": 38340.0
+            "Time": 38340.0,
+            "EndTime": 38399.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 239.0,
-            "Time": 38400.0
+            "Time": 38400.0,
+            "EndTime": 38639.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 38460.0
+            "Time": 38460.0,
+            "EndTime": 38519.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 38580.0
+            "Time": 38580.0,
+            "EndTime": 38639.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 38700.0
+            "Time": 38700.0,
+            "EndTime": 38759.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 65,
             "Length": 119.0,
-            "Time": 38760.0
+            "Time": 38760.0,
+            "EndTime": 38879.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 67,
             "Length": 119.0,
-            "Time": 38760.0
+            "Time": 38760.0,
+            "EndTime": 38879.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 38820.0
+            "Time": 38820.0,
+            "EndTime": 38879.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
             "Length": 119.0,
-            "Time": 38880.0
+            "Time": 38880.0,
+            "EndTime": 38999.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 67,
             "Length": 119.0,
-            "Time": 38880.0
+            "Time": 38880.0,
+            "EndTime": 38999.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 38940.0
+            "Time": 38940.0,
+            "EndTime": 38999.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 62,
             "Length": 119.0,
-            "Time": 39000.0
+            "Time": 39000.0,
+            "EndTime": 39119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 65,
             "Length": 119.0,
-            "Time": 39000.0
+            "Time": 39000.0,
+            "EndTime": 39119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 67,
             "Length": 119.0,
-            "Time": 39000.0
+            "Time": 39000.0,
+            "EndTime": 39119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 39060.0
+            "Time": 39060.0,
+            "EndTime": 39119.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
             "Length": 239.0,
-            "Time": 39120.0
+            "Time": 39120.0,
+            "EndTime": 39359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
             "Length": 239.0,
-            "Time": 39120.0
+            "Time": 39120.0,
+            "EndTime": 39359.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 39180.0
+            "Time": 39180.0,
+            "EndTime": 39239.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 83,
             "Length": 59.0,
-            "Time": 39300.0
+            "Time": 39300.0,
+            "EndTime": 39359.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 53,
             "Length": 239.0,
-            "Time": 39360.0
+            "Time": 39360.0,
+            "EndTime": 39599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
             "Length": 239.0,
-            "Time": 39360.0
+            "Time": 39360.0,
+            "EndTime": 39599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 39420.0
+            "Time": 39420.0,
+            "EndTime": 39479.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 76,
             "Length": 59.0,
-            "Time": 39540.0
+            "Time": 39540.0,
+            "EndTime": 39599.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
             "Length": 239.0,
-            "Time": 39600.0
+            "Time": 39600.0,
+            "EndTime": 39839.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 59,
             "Length": 239.0,
-            "Time": 39600.0
+            "Time": 39600.0,
+            "EndTime": 39839.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 79,
             "Length": 59.0,
-            "Time": 39660.0
+            "Time": 39660.0,
+            "EndTime": 39719.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 74,
             "Length": 59.0,
-            "Time": 39780.0
+            "Time": 39780.0,
+            "EndTime": 39839.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 56,
             "Length": 239.0,
-            "Time": 39840.0
+            "Time": 39840.0,
+            "EndTime": 40079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 59,
             "Length": 239.0,
-            "Time": 39840.0
+            "Time": 39840.0,
+            "EndTime": 40079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 77,
             "Length": 59.0,
-            "Time": 39900.0
+            "Time": 39900.0,
+            "EndTime": 39959.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 75,
             "Length": 59.0,
-            "Time": 40020.0
+            "Time": 40020.0,
+            "EndTime": 40079.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 71,
             "Length": 59.0,
-            "Time": 40140.0
+            "Time": 40140.0,
+            "EndTime": 40199.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 75,
             "Length": 59.0,
-            "Time": 40260.0
+            "Time": 40260.0,
+            "EndTime": 40319.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 71,
             "Length": 59.0,
-            "Time": 40380.0
+            "Time": 40380.0,
+            "EndTime": 40439.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 75,
             "Length": 59.0,
-            "Time": 40500.0
+            "Time": 40500.0,
+            "EndTime": 40559.0,
+            "Velocity": 80,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 43440.0
+            "Length": 719.0,
+            "Time": 43440.0,
+            "EndTime": 44159.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 43560.0
+            "Length": 599.0,
+            "Time": 43560.0,
+            "EndTime": 44159.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 43680.0
+            "Length": 479.0,
+            "Time": 43680.0,
+            "EndTime": 44159.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 44160.0
+            "Length": 719.0,
+            "Time": 44160.0,
+            "EndTime": 44879.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 44280.0
+            "Length": 599.0,
+            "Time": 44280.0,
+            "EndTime": 44879.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 44400.0
+            "Length": 479.0,
+            "Time": 44400.0,
+            "EndTime": 44879.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 44880.0
+            "Length": 719.0,
+            "Time": 44880.0,
+            "EndTime": 45599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 45000.0
+            "Length": 599.0,
+            "Time": 45000.0,
+            "EndTime": 45599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 45120.0
+            "Length": 479.0,
+            "Time": 45120.0,
+            "EndTime": 45599.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 46320.0
+            "Length": 719.0,
+            "Time": 46320.0,
+            "EndTime": 47039.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 46440.0
+            "Length": 599.0,
+            "Time": 46440.0,
+            "EndTime": 47039.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 46560.0
+            "Length": 479.0,
+            "Time": 46560.0,
+            "EndTime": 47039.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 47040.0
+            "Length": 719.0,
+            "Time": 47040.0,
+            "EndTime": 47759.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 47160.0
+            "Length": 599.0,
+            "Time": 47160.0,
+            "EndTime": 47759.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 47280.0
+            "Length": 479.0,
+            "Time": 47280.0,
+            "EndTime": 47759.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
             "Length": 119.0,
-            "Time": 47760.0
+            "Time": 47760.0,
+            "EndTime": 47879.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
             "Length": 119.0,
-            "Time": 47880.0
+            "Time": 47880.0,
+            "EndTime": 47999.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 48000.0
+            "Length": 239.0,
+            "Time": 48000.0,
+            "EndTime": 48239.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 48,
-            "Length": 119.0,
-            "Time": 48480.0
+            "Length": 719.0,
+            "Time": 48480.0,
+            "EndTime": 49199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
-            "Length": 119.0,
-            "Time": 48600.0
+            "Length": 599.0,
+            "Time": 48600.0,
+            "EndTime": 49199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 60,
-            "Length": 119.0,
-            "Time": 48720.0
+            "Length": 479.0,
+            "Time": 48720.0,
+            "EndTime": 49199.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 43,
-            "Length": 119.0,
-            "Time": 49200.0
+            "Length": 719.0,
+            "Time": 49200.0,
+            "EndTime": 49919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 55,
-            "Length": 119.0,
-            "Time": 49320.0
+            "Length": 599.0,
+            "Time": 49320.0,
+            "EndTime": 49919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 59,
-            "Length": 119.0,
-            "Time": 49440.0
+            "Length": 479.0,
+            "Time": 49440.0,
+            "EndTime": 49919.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 49920.0
+            "Length": 2159.0,
+            "Time": 49920.0,
+            "EndTime": 52079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 50040.0
+            "Length": 2039.0,
+            "Time": 50040.0,
+            "EndTime": 52079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 50160.0
+            "Length": 1919.0,
+            "Time": 50160.0,
+            "EndTime": 52079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 50640.0
+            "Length": 1439.0,
+            "Time": 50640.0,
+            "EndTime": 52079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 50760.0
+            "Length": 1319.0,
+            "Time": 50760.0,
+            "EndTime": 52079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
-            "Length": 119.0,
-            "Time": 50880.0
+            "Length": 1199.0,
+            "Time": 50880.0,
+            "EndTime": 52079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 4,
             "NoteNumber": 64,
-            "Length": 119.0,
-            "Time": 51240.0
+            "Length": 839.0,
+            "Time": 51240.0,
+            "EndTime": 52079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 76,
-            "Length": 119.0,
-            "Time": 51360.0
+            "Length": 719.0,
+            "Time": 51360.0,
+            "EndTime": 52079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 5,
+            "NoteNumber": 75,
+            "Length": 359.0,
+            "Time": 51720.0,
+            "EndTime": 52079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
+        },
+        {
+            "Octave": 5,
+            "NoteNumber": 76,
+            "Length": 239.0,
+            "Time": 51840.0,
+            "EndTime": 52079.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 75,
             "Length": 119.0,
-            "Time": 51720.0
+            "Time": 52200.0,
+            "EndTime": 52319.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 5,
             "NoteNumber": 76,
-            "Length": 119.0,
-            "Time": 51840.0
-        },
-        {
-            "Octave": 5,
-            "NoteNumber": 75,
-            "Length": 119.0,
-            "Time": 52200.0
-        },
-        {
-            "Octave": 5,
-            "NoteNumber": 76,
-            "Length": 119.0,
-            "Time": 52320.0
+            "Length": 239.0,
+            "Time": 52320.0,
+            "EndTime": 52559.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 53520.0
+            "Length": 719.0,
+            "Time": 53520.0,
+            "EndTime": 54239.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 53640.0
+            "Length": 599.0,
+            "Time": 53640.0,
+            "EndTime": 54239.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 53760.0
+            "Length": 479.0,
+            "Time": 53760.0,
+            "EndTime": 54239.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 54240.0
+            "Length": 719.0,
+            "Time": 54240.0,
+            "EndTime": 54959.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 54360.0
+            "Length": 599.0,
+            "Time": 54360.0,
+            "EndTime": 54959.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 54480.0
+            "Length": 479.0,
+            "Time": 54480.0,
+            "EndTime": 54959.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 54960.0
+            "Length": 719.0,
+            "Time": 54960.0,
+            "EndTime": 55679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 55080.0
+            "Length": 599.0,
+            "Time": 55080.0,
+            "EndTime": 55679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 55200.0
+            "Length": 479.0,
+            "Time": 55200.0,
+            "EndTime": 55679.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 119.0,
-            "Time": 56400.0
+            "Length": 719.0,
+            "Time": 56400.0,
+            "EndTime": 57119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 56520.0
+            "Length": 599.0,
+            "Time": 56520.0,
+            "EndTime": 57119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 57,
-            "Length": 119.0,
-            "Time": 56640.0
+            "Length": 479.0,
+            "Time": 56640.0,
+            "EndTime": 57119.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 40,
-            "Length": 119.0,
-            "Time": 57120.0
+            "Length": 1438.0,
+            "Time": 57120.0,
+            "EndTime": 58558.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 52,
-            "Length": 119.0,
-            "Time": 57240.0
+            "Length": 1318.0,
+            "Time": 57240.0,
+            "EndTime": 58558.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 3,
             "NoteNumber": 56,
-            "Length": 119.0,
-            "Time": 57360.0
+            "Length": 1198.0,
+            "Time": 57360.0,
+            "EndTime": 58558.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 1,
             "NoteNumber": 33,
-            "Length": 239.0,
-            "Time": 57840.0
+            "Length": 718.0,
+            "Time": 57840.0,
+            "EndTime": 58558.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         },
         {
             "Octave": 2,
             "NoteNumber": 45,
-            "Length": 239.0,
-            "Time": 57840.0
+            "Length": 718.0,
+            "Time": 57840.0,
+            "EndTime": 58558.0,
+            "Velocity": 33,
+            "OffVelocity": 0
         }
     ]
 }
