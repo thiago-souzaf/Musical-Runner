@@ -14,7 +14,6 @@ public class ConvertMIDIToJson : MonoBehaviour
     private IEnumerable<Note> notes;
     private IEnumerable<Note> accNotes;
 
-    private bool isSustainPressed = false;
 
     List<Pedal> pedalTimes = new();
 

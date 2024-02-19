@@ -1,28 +1,22 @@
-using System.Collections;
 using UnityEngine;
 
 public class NoteHandle : MonoBehaviour, IPooledObject
 {
-    [SerializeField] private int scoreValue;
-    [SerializeField] private bool isAccompaniment;
-    [SerializeField] private GameObject collectedParticleSystem;
-
     [HideInInspector] public NoteInfo note;
-    [HideInInspector] public bool isLast;
 
-    private AudioSource audioSource;
-    private int noteInterval;
-    private float noteDuration;
+    protected AudioSource audioSource;
+    protected int noteInterval;
+    protected float noteDuration;
 
-    private GameManager gameManager;
+    protected GameManager gameManager;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         audioSource = GetComponent<AudioSource>();
         gameManager = GameManager.Instance;
     }
 
-    public void OnObjectSpawn()
+    virtual public void OnObjectSpawn()
     {
         int octave = note.Octave;
         noteInterval = note.NoteNumber - ((octave + 1) * 12);
@@ -34,69 +28,31 @@ public class NoteHandle : MonoBehaviour, IPooledObject
         float newPitch = Mathf.Pow(2, noteInterval / 12.0f);
         audioSource.pitch = newPitch;
 
-        if (TryGetComponent(out SpriteRenderer sr))
-            sr.enabled = true;
-
         GetComponent<BoxCollider2D>().enabled = true;
-
-        if (collectedParticleSystem != null)
-            collectedParticleSystem.SetActive(false);
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    virtual protected void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             CollectNote();
         }
-        else if (other.CompareTag("OuterBounds"))
-        {
-            DestroyNote();
-            gameManager.ResetStreak();
-        }
     }
 
-    void PlayNote()
+    protected virtual void CollectNote()
     {
         audioSource.Play();
-    }
-
-    void CollectNote()
-    {
-        if(!isAccompaniment)
-            gameManager.IncrementScore(scoreValue);
-        PlayNote();
         DestroyNote();
-
-        if (collectedParticleSystem != null)
-            collectedParticleSystem.SetActive(true);
-
-        Invoke(nameof(StopNote), noteDuration);
-
     }
 
-    void StopNote()
+    virtual protected void DestroyNote()
+    {
+        GetComponent<BoxCollider2D>().enabled = false;
+        Invoke(nameof(DeactivateNote), noteDuration);
+    }
+
+    void DeactivateNote()
     {
         audioSource.Stop();
-    }
-
-    void DestroyNote()
-    {
-        if(TryGetComponent(out SpriteRenderer sr)){
-            sr.enabled = false;
-        }
-        GetComponent<BoxCollider2D>().enabled = false;
-
-        if (isLast)
-        {
-            gameManager.FinishLevel();
-        }
-
-        StartCoroutine(DeactivateNote(noteDuration));
-    }
-
-    IEnumerator DeactivateNote(float waitTime)
-    {
-        yield return new WaitForSeconds(waitTime);
         gameObject.SetActive(false);
     } 
 }

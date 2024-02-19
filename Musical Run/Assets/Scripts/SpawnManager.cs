@@ -45,7 +45,7 @@ public class SpawnManager : MonoBehaviour
         Vector2 melodySpawnPos;
         melodySpawnPos.x = transform.position.x;
 
-        NoteHandle noteSpawned = null;
+        MelodyNoteHandle noteSpawned = null;
         foreach (NoteInfo note in notes)
         {
             // Sets the y position based on previous note height
@@ -81,10 +81,10 @@ public class SpawnManager : MonoBehaviour
         }
     }
 
-    private NoteHandle SpawnNote(NoteInfo note, string dictTag, Vector2 spawnPosition)
+    private MelodyNoteHandle SpawnNote(NoteInfo note, string dictTag, Vector2 spawnPosition)
     {
         GameObject noteSpawned = notesPooler.SpawnFromPool(dictTag, spawnPosition, Quaternion.identity, note);
-        NoteHandle nh_note = noteSpawned.GetComponent<NoteHandle>();
+        noteSpawned.TryGetComponent(out MelodyNoteHandle nh_note);
 
         return nh_note;
     }
